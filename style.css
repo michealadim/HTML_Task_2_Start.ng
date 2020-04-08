@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ADD8E6;
+   }
+#topleft {
+    position: fixed;
+    top: -62px;
+    left: -12px;
+    width: 200px;
+}
+#topleft img{width: 100%;}
+#topright {
+    position: fixed;
+    top: -8px;
+    right: -92px;
+    width: 200px;
+}
+#topright img{width: 100%;}
+
+#bottomleft {
+    position: fixed;
+    bottom: -45px;
+    left: -50px;
+    width: 200px;
+}
+#bottomleft img{width: 100%;}
+#bottomright {
+    position: fixed;
+    bottom: -25px;
+    right: -70px;
+    width: 210px;
+}
+#bottomright img{width: 100%;}
+#background { 
+    margin: 40px;
+    margin-left: 550px;
+
+  
+}
+.header {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 25px;
+  margin-left: 40px;
+  color: darkblue;
+}
+.pgraph {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    font-size: 15px;
+  }
+
+
+.card {
+    display:flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-direction: column;
+    margin-left: 450px;
+    height: 127vh;
+    width: 28vw;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom-left-radius: 0pt;
+    padding: 30px;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+
+}
+
+
+#fname {
+    margin: 5px;
+    width: 25em;  height: 4em;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#email {
+    margin: 5px;
+    width: 25em;  height: 4em;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#pnumber {
+    margin: 5px;
+    width: 25em;  height: 4em;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#pword {
+    margin: 5px;
+    width: 25em;  height: 4em;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#ref {
+    margin: 5px;
+    width: 25em;  height: 4em;
+    border-radius: 5px;
+    margin-bottom: 25px;
+} 
+
+#ask{
+    margin: 7px; 
+   
+}
+#select {
+    width: 25em;  height: 4em;
+    border-radius: 5px;
+    margin: 7px;
+    margin-bottom: 25px;
+}
+#sub {
+    width: 23em;  height: 4em;
+    margin: 7px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    background-color: darkblue;
+    border-color: darkblue;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+#foot {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 550px;
+    font-weight: bold;
+}
