@@ -3,55 +3,50 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ADD8E6;
+    background-color: #062863;
    }
 #topleft {
     position: fixed;
-    top: -62px;
-    left: -12px;
-    width: 200px;
+    top: -10%;
+    left: -1%;
+    width: 15%;
 }
 #topleft img{width: 100%;}
 #topright {
     position: fixed;
-    top: -8px;
-    right: -92px;
-    width: 200px;
+    top: -1%;
+    right: -8%;
+    width: 15%;
 }
 #topright img{width: 100%;}
 
 #bottomleft {
     position: fixed;
-    bottom: -45px;
-    left: -50px;
-    width: 200px;
+    bottom: -7%;
+    left: -4%;
+    width: 15%;
 }
 #bottomleft img{width: 100%;}
 #bottomright {
     position: fixed;
-    bottom: -25px;
-    right: -70px;
-    width: 210px;
+    bottom: -6%;
+    right: -5%;
+    width: 15%;
 }
 #bottomright img{width: 100%;}
 #background { 
     margin: 40px;
     margin-left: 550px;
 
-  
 }
 .header {
   margin: 0px;
-  margin-top: 0px;
-  padding: 0px;
   font-size: 25px;
   margin-left: 40px;
   color: darkblue;
 }
 .pgraph {
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 25px;
+    margin-top: -30px;
     margin-left: 30px;
     font-size: 15px;
   }
@@ -59,9 +54,8 @@ body {
 
 .card {
     display:flex;
-    justify-content: flex-start;
-    align-content: stretch;
     flex-direction: column;
+    justify-content: space-evenly;
     margin-left: 450px;
     height: 127vh;
     width: 28vw;
@@ -73,8 +67,26 @@ body {
 
 }
 
-
-#fname {
+input {
+    margin: 5px;
+    width: 25em;  height: 3em;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    background-color: #edf2f7
+}
+label{
+    color: #4a5568;
+    font-size: 700;
+}
+#select {
+    width: 25em;  height: 3em;
+    border-radius: 5px;
+    margin: 7px;
+    margin-bottom: 25px;
+    background-color: #edf2f7;
+}
+/*#fname {
     margin: 5px;
     width: 25em;  height: 4em;
     border-radius: 5px;
@@ -113,12 +125,8 @@ body {
     margin: 7px; 
    
 }
-#select {
-    width: 25em;  height: 4em;
-    border-radius: 5px;
-    margin: 7px;
-    margin-bottom: 25px;
-}
+
+}*/
 #sub {
     width: 23em;  height: 4em;
     margin: 7px;
